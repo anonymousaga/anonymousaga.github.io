@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charSet="utf-8" index.html>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" index.html>
+    <link rel="preconnect" href="https://fonts.gstatic.com" index.html>
+    <link rel="preconnect" href="https://fonts.googleapis.com" index.html>
+    <title>Car Safety Monitor</title>
+    <link rel="preload" href="/stylet.css" as="style" index.html>
+    <link rel="stylesheet" href="/stylet.css" data-n-g index.html><noscript data-n-css></noscript>
+    <script type="module" src="https://cdn.skypack.dev/twind/shim"></script>
+</head>
+
+<body>
+    <div
+        class="md:container md:px-0 selectDisable light:bg-white dark:bg-black dark:text-white light:text-black mx-4 my-3 px-8 text-xl">
+        <nav class="mb-4 flex flex-wrap items-center gap-x-8 font-bold"><a
+                class="py-2 flex items-center after:transition relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-red-500 after:rounded after:scale-x-0 after:opacity-0 hover:after:scale-x-50 hover:after:opacity-100"
+                href="/projects.html">← Projects<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                    fill="currentColor" aria-hidden="true" class="w-5 h-5 ml-2 text-blue-400">
+                    <path
+                        d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z">
+                    </path>
+                </svg></a>
+
+        </nav>
+        <main>
+            <div class="fade-in mb-4">
+                <h1 class="heading mb-2 text-green-600 dark:text-green-400">
+                    Recycle Sorter With AI</h1>
+                <p style="font-weight:500" class="mb-4 dark:text-gray-400 text-gray-500">Broadcom MASTERS 2020</p>
+                <div class="flex">
+                    <img style="pointer-events: none;" oncontextmenu="return false;" src="overview.jpg"
+                        class="mb-4 rounded-2xl min-w-0 max-w-2xl">
+                </div>
+                <hr class="mb-4 bg-gray-500 border-none h-0.5" index.html>
+
+
+                <span class="font-light"> <b class="font-bold text-red-800 dark:text-red-200">Project Summary:</b> I
+                    love to RECYCLE! Recently, I learned about a problem called recycle contamination, where trash
+                    contaminates recyclable items. Furthermore, different types of recyclables get mixed. Sorting this
+                    collection of recyclables is a significantly labor-intensive job in hazardous work conditions and
+                    prone to human error.
+                    <br><br>I questioned if Artificial Intelligence (AI) and robotics can be used to detect and
+                    categorize day-to-day waste items with high accuracy. If yes, then can a robot perform physical
+                    sorting of day-to-day waste instead of humans? What would be the accuracy of this categorization?
+                    Will the problem of recycle contamination be addressed such that recyclables are recycled, making an
+                    overall positive impact on the environment?
+                    <br><br>I collected hundreds of categorized images of various waste items and used these to train
+                    Google’s TensorFlow image classification AI model for six categories of waste. Once I got the model
+                    trained, I started my experiment by testing the AI with uncategorized day-to-day waste items not
+                    used in the training process and recorded the accuracy of the trained AI model's image
+                    classification. I achieved an overall accuracy of 87%.
+                    <br><br>Furthermore, I designed and built a recycle sorting robot with a Raspberry Pi and Mindstorms
+                    EV3 parts. When waste is placed on this robot, the robot detects it with the help of a motion
+                    detector and takes a picture of the waste. Then it uses my trained image classification AI model
+                    (the robot’s brain) to detect the type of waste it is and dumps the waste into its respective
+                    bin.</span>
+
+
+
+            </div>
+            <hr class="mb-3 bg-gray-500 border-none h-0.5" index.html>
+
+            <div class="grid grid-cols-1 gap-3 xl:grid-cols-3">
+                <div><a href="https://youtu.be/FrXS1-u2NJU" target="_blank" title="YouTube"><button
+                            class="dark:bg-blue-600 bg-blue-500 min-w-full hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full transition">
+                            <span class="inline-flex">Video Demo &nbsp<svg fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="24px" height="24px" viewBox="0 0 24 24" class="w-5 h-7" version="1.1">
+                                    <g id="surface1">
+                                        <path
+                                            style=" stroke:none;fill:rgb(255, 70, 70);fill-rule:nonzero;fill-opacity:1;"
+                                            d="M 19.015625 3.507812 L 4.984375 3.507812 C 2.230469 3.507812 0 5.738281 0 8.492188 L 0 15.507812 C 0 18.261719 2.230469 20.492188 4.984375 20.492188 L 19.015625 20.492188 C 21.769531 20.492188 24 18.261719 24 15.507812 L 24 8.492188 C 24 5.738281 21.769531 3.507812 19.015625 3.507812 Z M 15.644531 12.339844 L 9.082031 15.472656 C 8.90625 15.554688 8.703125 15.425781 8.703125 15.234375 L 8.703125 8.777344 C 8.703125 8.582031 8.914062 8.453125 9.085938 8.542969 L 15.648438 11.867188 C 15.84375 11.96875 15.84375 12.246094 15.644531 12.339844 Z M 15.644531 12.339844 " />
+                                    </g>
+                                </svg></span>
+                        </button></a></div>
+
+
+                <div><a href="https://youtu.be/y2HTiGOcKrI" target="_blank" title="YouTube"><button
+                            class="dark:bg-blue-600 bg-blue-500 min-w-full hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full transition">
+                            <span class="inline-flex">Project Summary (3MYSC)&nbsp<svg fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="24px" height="24px" viewBox="0 0 24 24" class="w-5 h-7" version="1.1">
+                                    <g id="surface1">
+                                        <path
+                                            style=" stroke:none;fill:rgb(255, 70, 70);fill-rule:nonzero;fill-opacity:1;"
+                                            d="M 19.015625 3.507812 L 4.984375 3.507812 C 2.230469 3.507812 0 5.738281 0 8.492188 L 0 15.507812 C 0 18.261719 2.230469 20.492188 4.984375 20.492188 L 19.015625 20.492188 C 21.769531 20.492188 24 18.261719 24 15.507812 L 24 8.492188 C 24 5.738281 21.769531 3.507812 19.015625 3.507812 Z M 15.644531 12.339844 L 9.082031 15.472656 C 8.90625 15.554688 8.703125 15.425781 8.703125 15.234375 L 8.703125 8.777344 C 8.703125 8.582031 8.914062 8.453125 9.085938 8.542969 L 15.648438 11.867188 C 15.84375 11.96875 15.84375 12.246094 15.644531 12.339844 Z M 15.644531 12.339844 " />
+                                    </g>
+                                </svg></span>
+                        </button></a></div>
+
+
+                <div><a href="2020board.png.html" title="View Chart" target="_blank" rel="noopener noreferrer"><button
+                            class="dark:bg-blue-600 min-w-full bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full transition">
+                            Project Board
+
+                        </button></a></div>
+
+                <div><a href="https://www.mdjonline.com/news/education/dodgen-7th-grader-is-national-finalist-for-broadcom-masters-science-competition/article_c5b20982-2f49-11eb-82c1-9365d7fe6a60.html"
+                        title="View Chart" target="_blank" rel="noopener noreferrer"><button
+                            class="dark:bg-blue-600 min-w-full bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full transition">
+                            <span class="inline-flex">Marietta Daily Journal Article &nbsp;
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="w-5 h-7">
+                                    <path fill-rule="evenodd"
+                                        d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z"
+                                        clip-rule="evenodd" />
+                                    <path fill-rule="evenodd"
+                                        d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </button></a></div>
+
+
+
+                <div><a href="https://www.ajc.com/neighborhoods/bragbook/YVQYQEP3MJEFNAHJUHXASHTHBE/" title="View Chart"
+                        target="_blank" rel="noopener noreferrer"><button
+                            class="dark:bg-blue-600 min-w-full bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full transition">
+                            <span class="inline-flex">Atlanta Journal-Constitution Article &nbsp;
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="w-5 h-7">
+                                    <path fill-rule="evenodd"
+                                        d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z"
+                                        clip-rule="evenodd" />
+                                    <path fill-rule="evenodd"
+                                        d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </button></a></div>
+
+
+
+                <div><a href="https://eastcobbnews.com/tag/abhijeet-ghosh/" title="View Chart" target="_blank"
+                        rel="noopener noreferrer"><button
+                            class="dark:bg-blue-600 min-w-full bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full transition">
+                            <span class="inline-flex">East Cobb News Article &nbsp;
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="w-5 h-7">
+                                    <path fill-rule="evenodd"
+                                        d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z"
+                                        clip-rule="evenodd" />
+                                    <path fill-rule="evenodd"
+                                        d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </button></a></div>
+
+
+                <div><a href="https://www.societyforscience.org/broadcom-masters/broadcom-masters-2020/"
+                        title="View Chart" target="_blank" rel="noopener noreferrer"><button
+                            class="dark:bg-blue-600 min-w-full bg-blue-500 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full transition">
+                            <span class="inline-flex">Society for Science Article&nbsp;
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    class="w-5 h-7">
+                                    <path fill-rule="evenodd"
+                                        d="M4.25 5.5a.75.75 0 00-.75.75v8.5c0 .414.336.75.75.75h8.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0112.75 17h-8.5A2.25 2.25 0 012 14.75v-8.5A2.25 2.25 0 014.25 4h5a.75.75 0 010 1.5h-5z"
+                                        clip-rule="evenodd" />
+                                    <path fill-rule="evenodd"
+                                        d="M6.194 12.753a.75.75 0 001.06.053L16.5 4.44v2.81a.75.75 0 001.5 0v-4.5a.75.75 0 00-.75-.75h-4.5a.75.75 0 000 1.5h2.553l-9.056 8.194a.75.75 0 00-.053 1.06z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </button></a></div>
+            </div>
+        </main>
+
+    </div>
+</body>
+
+</html>
