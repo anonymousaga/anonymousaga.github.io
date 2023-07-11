@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-const withMT = require("@material-tailwind/html/utils/withMT");
 
 // tailwind.config.js
 const colors = require('tailwindcss/colors')
@@ -13,16 +12,17 @@ module.exports = {
                    //just add this below and your all other tailwind colors willwork
                 ...colors
             }
-        }
-    },
-
+        },
+        content: [
+            "./src/**/*.{html,js,svelte,ts}",
+            "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}",
+          ],
+        
+          plugins: [
+            require('flowbite/plugin')
+          ],
+        
+          darkMode: 'class',
     
-},
-  
-module.exports = withMT({
-    content: ["./index.html"],
-    theme: {
-      extend: {},
-    },
-    plugins: [],
-  });
+}
+}
