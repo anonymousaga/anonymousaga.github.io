@@ -1,8 +1,25 @@
 {
   "devDependencies": {
-    "tailwindcss": "^3.3.2"
+    "tailwindcss": "^3.4.3"
   },
   "dependencies": {
     "flowbite": "^1.7.0"
-  }
+  },
+  "name": "my_website",
+  "version": "1.0.0",
+  "description": "My personal website <br> Domain bought on May 6, 2023<br> Website developed on June 20, 2023<br><br> You can modify the code for your own website without contacting me.<br> This website's domain is https://abhijeetghosh.com",
+  "main": "tailwindcss-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anonymousaga/anonymousaga.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anonymousaga/anonymousaga.github.io/issues"
+  },
+  "homepage": "https://github.com/anonymousaga/anonymousaga.github.io#readme"
 }
