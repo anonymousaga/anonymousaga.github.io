@@ -24,5 +24,8 @@ module.exports = {
         
           darkMode: 'class',
     
+},
+experimental: {
+  optimizeUniversalDefaults: true
 }
 }

@@ -1,0 +1,5 @@
+# Enable server side includes
+Options +Includes 
+
+# pass .html files to the server for parsing
+AddHandler server-parsed .html 
