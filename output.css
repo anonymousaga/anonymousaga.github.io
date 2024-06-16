@@ -569,9 +569,8 @@ video {
 }
 
 .abhibody{
-  min-width: 768px;
-  max-width: 48rem;
-  padding: 1.25rem;
+  margin-left: 1.25rem;
+  padding: 2.5rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
@@ -707,8 +706,7 @@ body {
   line-height: inherit;
   height: 100vh;
   display: flex;
-  width: 100vw;
-  justify-content: center
+  width: 100vw
 }
 
 @media (prefers-color-scheme: dark){
