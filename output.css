@@ -569,8 +569,8 @@ video {
 }
 
 .abhibody{
-  margin: 1.25rem;
-  width: 700px;
+  margin: 1.5rem;
+  width: 800px;
   font-size: 1.25rem;
   line-height: 1.75rem;
   transition-property: all;
@@ -684,12 +684,6 @@ video {
 .abhibody {
   font-size: 1.25rem;
   line-height: 1.75rem
-}
-
-@media (min-width: 1024px){
-  .abhibody{
-    margin: 3.5rem;
-  }
 }
 
 /* END ABHIJEET CSS */

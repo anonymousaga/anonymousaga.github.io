@@ -14,6 +14,7 @@ module.exports = {
       },
       transitionProperty: {
         'spacing': 'margin, padding',
+        
       },
     },
     content: [

@@ -31,7 +31,7 @@
 }
 
 .abhibody {
-    @apply fade-in text-xl m-5 lg:m-14 w-[700px] transition-all /* light:bg-white light:text-black */
+    @apply fade-in text-xl m-6 w-[800px]  transition-all /* light:bg-white light:text-black */
 }
 
 /* END ABHIJEET CSS */
