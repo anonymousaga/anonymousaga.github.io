@@ -20,6 +20,20 @@
     @apply after:scale-x-100 after:opacity-100
 }
 
+
+.abhibox {
+    @apply mt-4 flex flex-row rounded-lg dark:bg-gray-800 bg-[#F0F0F0]
+}
+
+.abhihover {
+    @apply  hover:bg-blue-200 hover:dark:bg-blue-900 transition
+
+}
+
+.abhibody {
+    @apply fade-in max-w-3xl text-xl p-5 min-w-[768px]  /*  light:bg-white light:text-black */
+}
+
 /* END ABHIJEET CSS */
 
 
@@ -40,12 +54,15 @@ html {
     -moz-tab-size: 4;
     -o-tab-size: 4;
     tab-size: 4;
-    font-family: Outfit, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji
-}
+    
 
+}
 body {
+
     margin: 0;
-    line-height: inherit
+    line-height: inherit;
+    @apply  justify-center  flex w-screen h-screen dark:bg-black dark:text-white
+    
 }
 
 hr {

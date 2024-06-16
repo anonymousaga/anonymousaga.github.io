@@ -1,0 +1,29 @@
+In 2018,
+more than 470,000 injuries and 4,300 deaths were caused by drowsy and distracted
+driving alone.
+Traditional sensor-based technologies do not focus on the driver, as they mainly
+react to the
+environment. With the recent advancements in artificial intelligence (AI), I
+questioned if a
+standalone device that could detect drowsy and distracted driving using AI, two
+webcams, and a
+single-board computer with a high accuracy.
+<br><br> Dlib HOG frontal face detector, the driver’s face is cropped from an
+image from the front
+camera. Then, Dlib landmark model detects the eye’s shape and alerts if the eye
+is partially closed
+for 2/3 of a second or more. Blinks can be detected in the same manner, and an
+alert is sounded if
+the blink rate is 60% of the baseline, signifying fatigue. A trained VGG16 model
+detects and alerts
+about various distractions in the side camera, and a MobileNet model detects
+(and plays music if
+necessary) emotions from the cropped face.
+<br><br>I tested my device by having my parents do the specified action
+(drowsiness, distractedness,
+or blinking) in two cars and two different seat positions while my device was
+running. I logged the
+number of real actions and the number of detected actions (and false positives)
+<br><br>My device could detect drowsiness with an accuracy of 99%,
+distractedness with an accuracy
+of 95%, and induvial blinks with an accuracy of 96%.

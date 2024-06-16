@@ -529,6 +529,161 @@ video {
   opacity: 1;
 }
 
+.abhibox{
+  margin-top: 1rem;
+  flex-direction: row;
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 240 240 / var(--tw-bg-opacity));
+  display: flex;
+  border-radius: .5rem;
+}
+
+@media (prefers-color-scheme: dark){
+  .abhibox{
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  }
+}
+
+.abhihover{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  transition-duration: .15s;
+}
+
+.abhihover:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+}
+
+@media (prefers-color-scheme: dark){
+  .abhihover:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+  }
+}
+
+.abhibody{
+  min-width: 768px;
+  max-width: 48rem;
+  padding: 1.25rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.abhibody>* {
+  animation-name: fade-in;
+  animation-duration: .3s;
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(.14, .64, .51, .94)
+}
+
+.abhibody>:first-child {
+  animation-delay: .05s
+}
+
+.abhibody>:nth-child(2) {
+  animation-delay: .1s
+}
+
+.abhibody>:nth-child(3) {
+  animation-delay: .15s
+}
+
+.abhibody>:nth-child(4) {
+  animation-delay: .2s
+}
+
+.abhibody>:nth-child(5) {
+  animation-delay: .25s
+}
+
+.abhibody>:nth-child(6) {
+  animation-delay: .3s
+}
+
+.abhibody>:nth-child(7) {
+  animation-delay: .35s
+}
+
+.abhibody>:nth-child(8) {
+  animation-delay: .4s
+}
+
+.abhibody>:nth-child(9) {
+  animation-delay: .45s
+}
+
+.abhibody>:nth-child(10) {
+  animation-delay: .5s
+}
+
+.abhibody>:nth-child(11) {
+  animation-delay: .55s
+}
+
+.abhibody>:nth-child(12) {
+  animation-delay: .6s
+}
+
+.abhibody>:nth-child(13) {
+  animation-delay: .65s
+}
+
+.abhibody>:nth-child(14) {
+  animation-delay: .7s
+}
+
+.abhibody>:nth-child(15) {
+  animation-delay: .75s
+}
+
+.abhibody>:nth-child(16) {
+  animation-delay: .8s
+}
+
+.abhibody>:nth-child(17) {
+  animation-delay: .85s
+}
+
+.abhibody>:nth-child(18) {
+  animation-delay: .9s
+}
+
+.abhibody>:nth-child(19) {
+  animation-delay: .95s
+}
+
+.abhibody>:nth-child(20) {
+  animation-delay: 1s
+}
+
+.abhibody>:nth-child(21) {
+  animation-delay: 1.05s
+}
+
+.abhibody>:nth-child(22) {
+  animation-delay: 1.1s
+}
+
+.abhibody>:nth-child(23) {
+  animation-delay: 1.15s
+}
+
+.abhibody>:nth-child(24) {
+  animation-delay: 1.2s
+}
+
+.abhibody {
+  font-size: 1.25rem;
+  line-height: 1.75rem
+}
+
 /* END ABHIJEET CSS */
 
 :after,
@@ -545,12 +700,24 @@ html {
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
-  font-family: Outfit, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji
 }
 
 body {
   margin: 0;
-  line-height: inherit
+  line-height: inherit;
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+  justify-content: center
+}
+
+@media (prefers-color-scheme: dark){
+  body{
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
 }
 
 hr {
