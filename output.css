@@ -569,10 +569,13 @@ video {
 }
 
 .abhibody{
-  margin-left: 1.25rem;
-  padding: 2.5rem;
+  margin: 1.25rem;
+  width: 700px;
   font-size: 1.25rem;
   line-height: 1.75rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .abhibody>* {
@@ -683,6 +686,12 @@ video {
   line-height: 1.75rem
 }
 
+@media (min-width: 1024px){
+  .abhibody{
+    margin: 3.5rem;
+  }
+}
+
 /* END ABHIJEET CSS */
 
 :after,
@@ -706,7 +715,8 @@ body {
   line-height: inherit;
   height: 100vh;
   display: flex;
-  width: 100vw
+  width: 100vw;
+  justify-content: center
 }
 
 @media (prefers-color-scheme: dark){

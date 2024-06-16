@@ -31,7 +31,7 @@
 }
 
 .abhibody {
-    @apply fade-in ml-5 text-xl p-10  /* max-w-3xl  min-w-[768px] light:bg-white light:text-black */
+    @apply fade-in text-xl m-5 lg:m-14 w-[700px] transition-all /* light:bg-white light:text-black */
 }
 
 /* END ABHIJEET CSS */
@@ -61,7 +61,7 @@ body {
 
     margin: 0;
     line-height: inherit;
-    @apply flex w-screen h-screen dark:bg-black dark:text-white
+    @apply flex w-screen h-screen justify-center dark:bg-black dark:text-white
     
 }
 
