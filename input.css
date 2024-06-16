@@ -61,7 +61,7 @@ body {
 
     margin: 0;
     line-height: inherit;
-    @apply flex w-screen h-screen justify-center  dark:text-white bg-gradient-to-r dark:from-purple-950 dark:to-red-950 from-purple-100 to-red-100 overflow-y-scroll
+    @apply flex w-screen h-screen justify-center  dark:text-white bg-gradient-to-r dark:from-purple-950 dark:to-red-950 from-purple-200 to-red-200 overflow-y-scroll
     
 }
 

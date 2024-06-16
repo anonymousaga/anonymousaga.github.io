@@ -27,7 +27,7 @@ module.exports = {
     },
     extend: {
       
-      
+      backgroundOpacity: ['active'],
       colors: {
         //just add this below and your all other tailwind colors willwork
         ...colors
