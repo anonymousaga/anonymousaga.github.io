@@ -448,29 +448,93 @@ video {
   display: none;
 }
 
+*::after, .nav-passive::after, .nav-active::after{
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+}
+
 /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
 
-*,
-
-
-/* ABHIJEET CSS HERE */
+*:after,
 
 
 
+
+
+.nav-passive:after {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  --tw-scale-x: 0
+;
+  content: var(--tw-content);
+  opacity: 0
+}
+
+*:hover:after,
+
+
+
+
+
+.nav-passive:hover:after {
+  --tw-scale-x: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  content: var(--tw-content);
+  opacity: 1
+}
+
+*::after,
+
+
+
+
+
+.nav-passive::after{
+  --tw-scale-x: 0;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  content: var(--tw-content);
+  opacity: 0;
+}
+
+*:hover::after,
+
+
+
+
+
+.nav-passive:hover::after{
+  --tw-scale-x: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  content: var(--tw-content);
+  opacity: 1;
+}
+
+.nav-active:after {
+  --tw-scale-x: 1
+;
+  content: var(--tw-content);
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.nav-active::after{
+  --tw-scale-x: 1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  content: var(--tw-content);
+  opacity: 1;
+}
 
 /* END ABHIJEET CSS */
-
 
 :after,
 :before {
   box-sizing: border-box;
-  border: 0 solid #e5e7eb
-}
-
-:after,
-:before {
+  border: 0 solid #e5e7eb;
   --tw-content: ""
 
 }
