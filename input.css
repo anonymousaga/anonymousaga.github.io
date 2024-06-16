@@ -22,16 +22,15 @@
 
 
 .abhibox {
-    @apply mt-4 flex flex-row rounded-lg dark:bg-gray-800 bg-[#F0F0F0]
+    @apply mt-4 flex flex-row rounded-lg dark:bg-[#333333] bg-[#F0F0F0]  shadow-lg
 }
 
 .abhihover {
-    @apply  hover:bg-blue-200 hover:dark:bg-blue-900 transition
-
+    @apply  hover:bg-blue-200 hover:dark:bg-blue-900 transition-all hover:shadow-xl
 }
 
 .abhibody {
-    @apply fade-in text-xl m-6 w-[800px]  transition-all /* light:bg-white light:text-black */
+    @apply fade-in text-xl m-6 w-[800px] transition-all /* light:bg-white light:text-black */
 }
 
 /* END ABHIJEET CSS */
@@ -61,7 +60,7 @@ body {
 
     margin: 0;
     line-height: inherit;
-    @apply flex w-screen h-screen justify-center dark:bg-black dark:text-white
+    @apply flex w-screen h-screen justify-center  dark:text-white bg-gradient-to-r dark:from-purple-950 dark:to-red-950 from-purple-100 to-red-100 overflow-y-scroll
     
 }
 
