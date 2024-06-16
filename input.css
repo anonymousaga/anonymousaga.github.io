@@ -22,17 +22,25 @@
 
 
 .abhibox {
-    @apply mt-4 flex flex-row rounded-lg dark:bg-[#333333] bg-[#F0F0F0]  shadow-lg
+    @apply mt-4 flex flex-row rounded-lg dark:bg-[#555555] bg-[#FFFFFF]  shadow-lg dark:bg-opacity-45 bg-opacity-50
 }
 
 .abhihover {
-    @apply  hover:bg-blue-200 hover:dark:bg-blue-900 transition-all hover:shadow-xl
+    @apply  hover:dark:bg-opacity-100 hover:bg-opacity-100 hover:dark:bg-[#515151] transition-all hover:shadow-xl 
 }
 
 .abhibody {
     @apply fade-in text-xl m-6 w-[800px] transition-all /* light:bg-white light:text-black */
 }
 
+
+.award-accordion {
+    @apply p-3 border-2 rounded-b-xl border-t-0 dark:bg-black bg-white bg-opacity-40 dark:bg-opacity-30 border-gray-400 dark:border-gray-600
+}
+
+.page-accordion {
+    @apply p-3 border-2 border-y-0 dark:bg-black bg-white bg-opacity-40 dark:bg-opacity-30 border-gray-400 dark:border-gray-600
+}
 /* END ABHIJEET CSS */
 
 
@@ -61,8 +69,12 @@ body {
 
     margin: 0;
     line-height: inherit;
-    @apply flex w-screen h-screen justify-center  dark:text-white bg-gradient-to-r dark:from-purple-950 dark:to-red-950 from-purple-200 to-red-200 overflow-y-scroll
+    @apply flex w-screen h-screen justify-center  dark:text-white bg-gradient-to-r dark:from-purple-950 dark:to-red-950 from-purple-200 to-red-200 overflow-y-scroll 
     
+}
+
+main {
+    @apply pb-4
 }
 
 hr {
