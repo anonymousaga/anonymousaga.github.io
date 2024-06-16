@@ -6,3 +6,11 @@ function loadDiv(htp) {
       });
 };
 
+
+
+const urlParams = new URLSearchParams(window.location.search);
+if (urlParams.has('page')) {
+    loadDiv(urlParams.get('page'));
+} else {
+    loadDiv('main')
+}
