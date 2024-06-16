@@ -18,3 +18,4 @@ if (urlParams.has('page')) {
 } else {
     loadDiv('main')
 }
+
