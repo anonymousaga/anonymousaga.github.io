@@ -1,14 +1,18 @@
 function loadDiv(htp) {
     $(function(){
-        $("#DivContent").load(htp+'.html'); 
-        $(".nav-active").removeClass("nav-active");
-        $('.'+htp).addClass("nav-active");
+            var urlParams = new URLSearchParams(window.location.search);
+            $("#DivContent").load(htp+'.html'); 
+            $(".nav-active").removeClass("nav-active");
+            $('.'+htp).addClass("nav-active");
+            urlParams.set('page', htp);
+            history.replaceState(null, null, "?"+urlParams.toString());
+
       });
 };
 
 
 
-const urlParams = new URLSearchParams(window.location.search);
+var urlParams = new URLSearchParams(window.location.search);
 if (urlParams.has('page')) {
     loadDiv(urlParams.get('page'));
 } else {
