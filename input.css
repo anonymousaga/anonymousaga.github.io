@@ -26,7 +26,7 @@
 }
 
 .abhihover {
-    @apply  hover:dark:bg-opacity-100 hover:bg-opacity-100 hover:dark:bg-[#3E3E3E] transition-all hover:shadow-xl 
+    @apply  hover:dark:bg-opacity-100 hover:bg-opacity-100 hover:dark:bg-[#444444] transition-all hover:shadow-xl 
 }
 
 .abhibody {

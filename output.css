@@ -576,7 +576,7 @@ body{
 
 @media (prefers-color-scheme: dark){
   .abhihover:hover{
-    background-color: rgb(62 62 62 / var(--tw-bg-opacity));
+    background-color: rgb(68 68 68 / var(--tw-bg-opacity));
     --tw-bg-opacity: 1;
   }
 }
