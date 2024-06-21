@@ -26,7 +26,7 @@
 }
 
 .abhihover {
-    @apply  hover:dark:bg-opacity-100 hover:bg-opacity-100 hover:dark:bg-[#515151] transition-all hover:shadow-xl 
+    @apply  hover:dark:bg-opacity-100 hover:bg-opacity-100 hover:dark:bg-[#3E3E3E] transition-all hover:shadow-xl 
 }
 
 .abhibody {
@@ -69,13 +69,13 @@ body {
 
     margin: 0;
     line-height: inherit;
-    @apply flex w-screen h-screen justify-center  dark:text-white bg-gradient-to-r dark:from-purple-950 dark:to-red-950 from-purple-200 to-red-200 overflow-y-scroll 
+    @apply flex w-screen h-screen justify-center  dark:text-white bg-gradient-to-r dark:from-[#270842] dark:to-[#2E0808] from-purple-200 to-red-200 overflow-y-scroll 
     
 }
 
 main {
     @apply pb-4
-}
+}       
 
 hr {
     height: 0;

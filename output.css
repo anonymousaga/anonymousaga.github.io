@@ -576,7 +576,7 @@ body{
 
 @media (prefers-color-scheme: dark){
   .abhihover:hover{
-    background-color: rgb(81 81 81 / var(--tw-bg-opacity));
+    background-color: rgb(62 62 62 / var(--tw-bg-opacity));
     --tw-bg-opacity: 1;
   }
 }
@@ -777,10 +777,10 @@ body {
 
 @media (prefers-color-scheme: dark){
   body{
-    --tw-gradient-from: #3b0764 var(--tw-gradient-from-position);
-    --tw-gradient-to: rgb(59 7 100 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-from: #270842 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(39 8 66 / 0) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-    --tw-gradient-to: #450a0a var(--tw-gradient-to-position);
+    --tw-gradient-to: #2E0808 var(--tw-gradient-to-position);
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
