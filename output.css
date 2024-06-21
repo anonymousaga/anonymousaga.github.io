@@ -780,7 +780,7 @@ body {
     --tw-gradient-from: #270842 var(--tw-gradient-from-position);
     --tw-gradient-to: rgb(39 8 66 / 0) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-    --tw-gradient-to: #2E0808 var(--tw-gradient-to-position);
+    --tw-gradient-to: #380808 var(--tw-gradient-to-position);
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
