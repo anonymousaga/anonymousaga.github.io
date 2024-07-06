@@ -14,9 +14,7 @@
 
 
 
-.dshsdaff {}
-
-,
+.dshsdaff {},
 /* needed for nav to work */
 .nav-passive {
     @apply after:scale-x-0 after:opacity-0 hover:after:scale-x-50 hover:after:opacity-100
@@ -123,20 +121,20 @@ html {
     -o-tab-size: 4;
     tab-size: 4;
 
-    font-size: 16px;
+    font-size: 15px;
     @screen md {
-        font-size: 16.5px;
+        font-size: 15.6px;
     }
 
     @screen lg {
-        font-size: 17px;
+        font-size: 16.2px;
     }
     @screen xl {
-        font-size: 17.5px;
+        font-size: 16.8px;
     }
 
     @screen 2xl {
-        font-size: 18px;
+        font-size: 17.4px;
     }
 
     /*font-size: max(calc(12px + 0.8vmin), 18px);*/
@@ -223,16 +221,9 @@ select {
 [type=button],
 [type=reset],
 [type=submit],
-button {
-    -webkit-appearance: button;
-    appearance: button;
-    background-color: transparent;
-    background-image: none
-}
 
-:-moz-focusring {
-    outline: auto
-}
+
+
 
 :-moz-ui-invalid {
     box-shadow: none
@@ -242,25 +233,8 @@ progress {
     vertical-align: baseline
 }
 
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
-    height: auto
-}
 
-[type=search] {
-    -webkit-appearance: textfield;
-    appearance: textfield;
-    outline-offset: -2px
-}
 
-::-webkit-search-decoration {
-    -webkit-appearance: none
-}
-
-::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    font: inherit
-}
 
 summary {
     display: list-item
@@ -280,13 +254,7 @@ legend {
     padding: 0
 }
 
-menu,
-ol,
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0
-}
+
 
 textarea {
     resize: vertical
@@ -304,11 +272,6 @@ textarea:-ms-input-placeholder {
     color: #9ca3af
 }
 
-input::placeholder,
-textarea::placeholder {
-    opacity: 1;
-    color: #9ca3af
-}
 
 [role=button],
 button {
@@ -319,17 +282,6 @@ button {
     cursor: default
 }
 
-audio,
-canvas,
-embed,
-iframe,
-img,
-object,
-svg,
-video {
-    display: block;
-    vertical-align: middle
-}
 
 img,
 video {
@@ -364,33 +316,6 @@ html {
     scrollbar-width: thin
 }
 
-
-
-::-webkit-scrollbar {
-    width: 8px;
-    height: 8px
-}
-
-::-webkit-scrollbar-track {
-    background: #000
-}
-
-::-webkit-scrollbar-thumb {
-    background: hsla(0, 0%, 100%, .133)
-}
-
-::-webkit-scrollbar-button,
-::-webkit-scrollbar-corner {
-    display: none
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: hsla(0, 0%, 100%, .094)
-}
-
-::-webkit-scrollbar-thumb:active {
-    background: hsla(0, 0%, 100%, .063)
-}
 
 @media(prefers-reduced-motion:reduce) {
 

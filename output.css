@@ -938,18 +938,18 @@ html {
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
-  font-size: 16px;
+  font-size: 15px;
   @media (min-width: 680px) {
-    font-size: 16.5px;
+    font-size: 15.6px;
   }
   @media (min-width: 1024px) {
-    font-size: 17px;
+    font-size: 16.2px;
   }
   @media (min-width: 1280px) {
-    font-size: 17.5px;
+    font-size: 16.8px;
   }
   @media (min-width: 1536px) {
-    font-size: 18px;
+    font-size: 17.4px;
   }
   /*font-size: max(calc(12px + 0.8vmin), 18px);*/
 }
@@ -1051,17 +1051,9 @@ select {
 [type=button],
 [type=reset],
 [type=submit],
-button {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-       appearance: button;
-  background-color: transparent;
-  background-image: none
-}
 
-:-moz-focusring {
-  outline: auto
-}
+
+
 
 :-moz-ui-invalid {
   box-shadow: none
@@ -1069,27 +1061,6 @@ button {
 
 progress {
   vertical-align: baseline
-}
-
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
-  height: auto
-}
-
-[type=search] {
-  -webkit-appearance: textfield;
-  -moz-appearance: textfield;
-       appearance: textfield;
-  outline-offset: -2px
-}
-
-::-webkit-search-decoration {
-  -webkit-appearance: none
-}
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit
 }
 
 summary {
@@ -1109,14 +1080,6 @@ legend {
   padding: 0
 }
 
-menu,
-ol,
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0
-}
-
 textarea {
   resize: vertical
 }
@@ -1127,13 +1090,8 @@ textarea::-moz-placeholder {
   color: #9ca3af
 }
 
-input::-moz-placeholder, textarea::-moz-placeholder {
-  opacity: 1;
-  color: #9ca3af
-}
-
-input::placeholder,
-textarea::placeholder {
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
   opacity: 1;
   color: #9ca3af
 }
@@ -1145,18 +1103,6 @@ button {
 
 :disabled {
   cursor: default
-}
-
-audio,
-canvas,
-embed,
-iframe,
-img,
-object,
-svg,
-video {
-  display: block;
-  vertical-align: middle
 }
 
 img,
@@ -1190,32 +1136,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   scrollbar-color: hsla(0, 0%, 100%, .133) #000;
   scrollbar-width: thin
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px
-}
-
-::-webkit-scrollbar-track {
-  background: #000
-}
-
-::-webkit-scrollbar-thumb {
-  background: hsla(0, 0%, 100%, .133)
-}
-
-::-webkit-scrollbar-button,
-::-webkit-scrollbar-corner {
-  display: none
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: hsla(0, 0%, 100%, .094)
-}
-
-::-webkit-scrollbar-thumb:active {
-  background: hsla(0, 0%, 100%, .063)
 }
 
 @media(prefers-reduced-motion:reduce) {
