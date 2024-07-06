@@ -29,8 +29,8 @@ module.exports = {
       
       backgroundOpacity: ['active'],
       colors: {
-        //just add this below and your all other tailwind colors willwork
-        ...colors
+        //...colors
+        orange: colors.orange,
       },
 
       transitionProperty: {
@@ -49,8 +49,8 @@ module.exports = {
 
     darkMode: 'class',
 
-  },
-  experimental: {
-    optimizeUniversalDefaults: true
-  }
+  }//,
+  //experimental: {
+  // optimizeUniversalDefaults: true
+  //}
 }

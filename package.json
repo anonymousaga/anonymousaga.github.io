@@ -2,7 +2,7 @@
   "devDependencies": {
     "flowbite": "^2.3.0",
     "flowbite-svelte-icons": "^1.6.1",
-    "tailwindcss": "^3.4.3"
+    "tailwindcss": "^3.4.4"
   },
   "name": "my_website",
   "version": "1.0.0",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/anonymousaga/anonymousaga.github.io/issues"
   },
-  "homepage": "https://github.com/anonymousaga/anonymousaga.github.io#readme"
+  "homepage": "https://github.com/anonymousaga/anonymousaga.github.io#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39"
+  }
 }
