@@ -7,6 +7,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 
 module.exports = {
+  mode: 'jit',
   theme: {
     
     screens: {
@@ -26,7 +27,6 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
-      
       backgroundOpacity: ['active'],
       colors: {
         //...colors
@@ -39,9 +39,11 @@ module.exports = {
       },
     },
     content: [
-      "./*.{html,js,svelte,ts}",
-      //"./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}",
-    ],
+      "./*.{html,css,js}",
+      "./*/*.{html,css,js}",
+      "./*/*/*.{html,css,js}",
+      "./*/*/*/*.{html,css,js}",
+  ],
 
     plugins: [
       require('flowbite/plugin')
