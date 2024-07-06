@@ -833,6 +833,8 @@ video {
   display: flex;
   width: -moz-min-content;
   width: min-content;
+  width: -moz-max-content;
+  width: max-content;
   align-items: center;
   text-wrap: nowrap;
   padding-top: 0.5rem;
@@ -938,16 +940,16 @@ html {
   tab-size: 4;
   font-size: 16px;
   @media (min-width: 680px) {
-    font-size: 17px;
+    font-size: 16.5px;
   }
   @media (min-width: 1024px) {
-    font-size: 18px;
+    font-size: 17px;
   }
   @media (min-width: 1280px) {
-    font-size: 19px;
+    font-size: 17.5px;
   }
   @media (min-width: 1536px) {
-    font-size: 20px;
+    font-size: 18px;
   }
   /*font-size: max(calc(12px + 0.8vmin), 18px);*/
 }
