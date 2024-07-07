@@ -939,20 +939,23 @@ nav{
 }
 */
 
-/* WebKit and Chromiums */
+/* Not working for some reason, safari scrollbar */
 
+/*
 ::-webkit-scrollbar {
-  background-color: transparent;
-}
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
 
-::-webkit-scrollbar-thumb {
-  @media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: dark) {
     background: #a2a2a2;
-  }
-  @media (prefers-color-scheme: light) {
-    background: #797979;
-  }
+    }
+    @media (prefers-color-scheme: light) {
+        background: #797979;
+    }
 }
+*/
 
 html {
   line-height: 1.5;

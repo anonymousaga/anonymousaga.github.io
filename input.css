@@ -119,7 +119,8 @@ nav {
 */
 
 
-/* WebKit and Chromiums */
+/* Not working for some reason, safari scrollbar */
+/*
 ::-webkit-scrollbar {
     background-color: transparent;
   }
@@ -133,6 +134,7 @@ nav {
         background: #797979;
     }
 }
+*/
 html {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
