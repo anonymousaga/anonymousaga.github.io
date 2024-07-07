@@ -614,6 +614,13 @@ video {
   }
 }
 
+.hr{
+  height: 0.125rem;
+  border-style: none;
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
 .h2{
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -938,6 +945,13 @@ html {
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
+  overflow: hidden;
+  @media (prefers-color-scheme: dark) {
+    scrollbar-color: #a2a2a2 transparent;
+  }
+  @media (prefers-color-scheme: light) {
+    scrollbar-color: #797979 transparent;
+  }
   font-size: 15px;
   @media (min-width: 680px) {
     font-size: 15.6px;
@@ -952,13 +966,6 @@ html {
     font-size: 17.4px;
   }
   /*font-size: max(calc(12px + 0.8vmin), 18px);*/
-}
-
-.hr{
-  height: 0.125rem;
-  border-style: none;
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 body {
@@ -991,43 +998,46 @@ main{
   padding-bottom: 1rem;
 }
 
+/*
 abbr:where([title]) {
-  -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
 }
+*/
 
+/*
 code,
 kbd,
 pre,
 samp {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-  font-size: 1em
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-size: 1em
 }
 
 small {
-  font-size: 80%
+    font-size: 80%
 }
 
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
 }
 
 sub {
-  bottom: -.25em
+    bottom: -.25em
 }
 
 sup {
-  top: -.5em
+    top: -.5em
 }
 
 table {
-  text-indent: 0;
-  border-color: inherit;
-  border-collapse: collapse
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse
 }
 
 button,
@@ -1035,17 +1045,17 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: inherit;
-  color: inherit;
-  margin: 0;
-  padding: 0
+    font-family: inherit;
+    font-size: 100%;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0
 }
 
 button,
 select {
-  text-transform: none
+    text-transform: none
 }
 
 [type=button],
@@ -1056,87 +1066,99 @@ select {
 
 
 :-moz-ui-invalid {
-  box-shadow: none
+    box-shadow: none
 }
 
 progress {
-  vertical-align: baseline
+    vertical-align: baseline
 }
+
+
+
 
 summary {
-  display: list-item
+    display: list-item
 }
 
+
 pre {
-  margin: 0
+    margin: 0
 }
 
 fieldset {
-  margin: 0
+    margin: 0
 }
 
 fieldset,
 legend {
-  padding: 0
+    padding: 0
 }
 
+
+
 textarea {
-  resize: vertical
+    resize: vertical
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  opacity: 1;
-  color: #9ca3af
+    opacity: 1;
+    color: #9ca3af
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  opacity: 1;
-  color: #9ca3af
+    opacity: 1;
+    color: #9ca3af
 }
+
 
 [role=button],
 button {
-  cursor: pointer
+    cursor: pointer
 }
 
 :disabled {
-  cursor: default
+    cursor: default
 }
+
 
 img,
 video {
-  max-width: 100%;
-  height: auto
+    max-width: 100%;
+    height: auto
 }
 
 [hidden] {
-  display: none
+    display: none
 }
+*/
 
+/*
 body,
 @media (prefers-color-scheme: light) {
-  html {
-    background-color: rgb(255 255 255);
-    color: rgb(0 0 0)
-  }
+    html {
+        background-color: rgb(255 255 255);
+        color: rgb(0 0 0)
+    }
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    background-color: rgb(0 0 0);
-    color: rgb(255 255 255)
-  }
+    html {
+        background-color: rgb(0 0 0);
+        color: rgb(255 255 255)
+    }
 }
 
 html {
-  overflow-x: hidden;
-  overflow-y: scroll;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  scrollbar-color: hsla(0, 0%, 100%, .133) #000;
-  scrollbar-width: thin
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    scrollbar-color: hsla(0, 0%, 100%, .133) #000;
+    scrollbar-width: thin
 }
+
+*/
 
 @media(prefers-reduced-motion:reduce) {
   *,

@@ -1,8 +1,8 @@
 @import"https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Outfit:wght@500;700&display=swap";
 @config "./tailwind.config.js";
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
@@ -29,6 +29,9 @@
     @apply mt-4 flex flex-row rounded-lg border border-[#EEEEEE] dark:border-[#444444] shadow-lg bg-opacity-75 dark:bg-opacity-70 dark:bg-[#333333] bg-[#FFFFFF]
 }
 
+.hr {
+    @apply bg-gray-500 border-none h-0.5
+}
 
 .h2 {
     @apply font-extrabold text-3xl
@@ -62,7 +65,7 @@
 }
 
 .abhibody {
-    @apply fade-in text-xl m-6 w-[41rem] transition-all text-gray-800 dark:text-gray-200
+    @apply fade-in text-xl m-6 w-[41rem] transition-all text-gray-800 dark:text-gray-200 
     /* light:bg-white light:text-black */
 }
 
@@ -120,6 +123,18 @@ html {
     -moz-tab-size: 4;
     -o-tab-size: 4;
     tab-size: 4;
+    overflow: hidden;
+   
+    @media (prefers-color-scheme: dark) {
+       
+        scrollbar-color: #a2a2a2 transparent;
+        
+    }
+    
+    @media (prefers-color-scheme: light) {
+        scrollbar-color: #797979 transparent;
+    }
+        
 
     font-size: 15px;
     @screen md {
@@ -142,9 +157,7 @@ html {
 
 }
 
-.hr {
-    @apply bg-gray-500 border-none h-0.5
-}
+
 
 body {
 
@@ -157,15 +170,15 @@ main {
     @apply pb-4
 }
 
-
+/*
 abbr:where([title]) {
     -webkit-text-decoration: underline dotted;
     text-decoration: underline dotted
 }
+*/
 
 
-
-
+/*
 code,
 kbd,
 pre,
@@ -292,7 +305,8 @@ video {
 [hidden] {
     display: none
 }
-
+*/
+/*
 body,
 @media (prefers-color-scheme: light) {
     html {
@@ -316,7 +330,7 @@ html {
     scrollbar-width: thin
 }
 
-
+*/
 @media(prefers-reduced-motion:reduce) {
 
     *,
