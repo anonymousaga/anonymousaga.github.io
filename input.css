@@ -117,6 +117,22 @@ nav {
     --tw-content: ""
 }
 */
+
+
+/* WebKit and Chromiums */
+::-webkit-scrollbar {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+
+    @media (prefers-color-scheme: dark) {
+    background: #a2a2a2;
+    }
+    @media (prefers-color-scheme: light) {
+        background: #797979;
+    }
+}
 html {
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
