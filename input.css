@@ -24,9 +24,14 @@
     @apply after:scale-x-100 after:opacity-100
 }
 
-
+.arrow {
+    @apply text-xl font-medium font-sans group-hover:font-black
+}
+.abhihover {
+    @apply mt-4 flex flex-row rounded-lg border border-[#EEEEEE] dark:border-[#444] shadow-lg bg-opacity-75 bg-[#FFFFFF] dark:bg-opacity-70 dark:bg-[#333333] hover:bg-opacity-100 transition-all hover:shadow-xl hover:scale-[1.015] focus:outline-none
+}
 .abhibox {
-    @apply mt-4 flex flex-row rounded-lg border border-[#EEEEEE] dark:border-[#444444] shadow-lg bg-opacity-75 bg-[#FFFFFF] dark:bg-opacity-70 dark:bg-[#333333]
+    @apply mt-4 flex flex-row rounded-md border-[1.5px] border-[#333] dark:border-[#999]  
 }
 
 .hr {
@@ -52,9 +57,7 @@
     @apply scale-[1.015] bg-opacity-100
 }
 
-.abhihover {
-    @apply hover:bg-opacity-100 transition-all hover:shadow-xl hover:scale-[1.015] focus:outline-none
-}
+
 
 .desc {
     @apply opacity-70
