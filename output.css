@@ -571,13 +571,15 @@ video {
   opacity: 0;
 }
 
-*:hover::after,
+@media (hover: hover) and (pointer: fine){
+  *:hover::after,
 
 .nav-passive:hover::after{
-  --tw-scale-x: .5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  content: var(--tw-content);
-  opacity: 1;
+    --tw-scale-x: .5;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    content: var(--tw-content);
+    opacity: 1;
+  }
 }
 
 .nav-active::after{
@@ -594,8 +596,10 @@ video {
   font-weight: 500;
 }
 
-.group:hover .arrow{
-  font-weight: 900;
+@media (hover: hover) and (pointer: fine){
+  .group:hover .arrow{
+    font-weight: 900;
+  }
 }
 
 .abhihover{
@@ -615,14 +619,16 @@ video {
   transition-duration: 150ms;
 }
 
-.abhihover:hover{
-  --tw-scale-x: 1.015;
-  --tw-scale-y: 1.015;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  --tw-bg-opacity: 1;
-  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+@media (hover: hover) and (pointer: fine){
+  .abhihover:hover{
+    --tw-scale-x: 1.015;
+    --tw-scale-y: 1.015;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-bg-opacity: 1;
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
 }
 
 .abhihover:focus{
@@ -701,8 +707,10 @@ video {
   transition-duration: 150ms;
 }
 
-.link:hover{
-  opacity: 0.8;
+@media (hover: hover) and (pointer: fine){
+  .link:hover{
+    opacity: 0.8;
+  }
 }
 
 @media (prefers-color-scheme: dark){
@@ -862,14 +870,16 @@ video {
   transition-duration: 150ms;
 }
 
-.homelinkdiv:hover{
-  --tw-scale-x: 1.015;
-  --tw-scale-y: 1.015;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  --tw-bg-opacity: 1;
-  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+@media (hover: hover) and (pointer: fine){
+  .homelinkdiv:hover{
+    --tw-scale-x: 1.015;
+    --tw-scale-y: 1.015;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    --tw-bg-opacity: 1;
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
 }
 
 .homelinkdiv:focus{
@@ -886,10 +896,12 @@ video {
   }
 }
 
-.homelinkdiv:hover{
-  --tw-scale-x: 1.10;
-  --tw-scale-y: 1.10;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+@media (hover: hover) and (pointer: fine){
+  .homelinkdiv:hover{
+    --tw-scale-x: 1.10;
+    --tw-scale-y: 1.10;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
 }
 
 .nav{

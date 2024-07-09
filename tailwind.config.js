@@ -7,7 +7,10 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 
 module.exports = {
-  //mode: 'jit',
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
+  mode: 'jit',
   theme: {
     
     screens: {
