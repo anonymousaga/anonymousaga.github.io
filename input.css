@@ -28,10 +28,10 @@
     @apply text-xl font-medium font-sans group-hover:font-black
 }
 .abhihover {
-    @apply mt-4 flex flex-row rounded-lg border border-[#EEEEEE] dark:border-[#444] shadow-lg bg-opacity-75 bg-[#FFFFFF] dark:bg-opacity-70 dark:bg-[#333333] hover:bg-opacity-100 transition-all hover:shadow-xl hover:scale-[1.015] focus:outline-none
+    @apply mt-4 flex rounded-lg border border-[#EEEEEE] dark:border-[#444] shadow-lg bg-opacity-75 bg-[#FFFFFF] dark:bg-opacity-70 dark:bg-[#333333] hover:bg-opacity-100 transition-all hover:shadow-xl hover:scale-[1.015] focus:outline-none
 }
 .abhibox {
-    @apply mt-4 flex flex-row rounded-md border-[1.5px] border-[#333] dark:border-[#999]  
+    @apply mt-4 flex rounded-md border-[1.5px] border-[#333] dark:border-[#999]  
 }
 
 .hr {
@@ -73,7 +73,10 @@
 }
 
 .homelink {
-    @apply w-8 h-7 hover:opacity-60 items-center flex justify-center transition mr-5 hover:scale-[1.09]
+    @apply w-9 h-9 items-center flex justify-center 
+}
+.homelinkdiv {
+    @apply abhihover w-min p-1.5 hover:scale-[1.10]
 }
 
 .nav {
