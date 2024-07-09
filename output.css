@@ -562,10 +562,7 @@ video {
 
 /* ABHIJEET CSS HERE */
 
-.dshsdaff {
-}
-
-::after,
+*::after,
 
 .nav-passive::after{
   --tw-scale-x: 0;
@@ -574,7 +571,7 @@ video {
   opacity: 0;
 }
 
-:hover::after,
+*:hover::after,
 
 .nav-passive:hover::after{
   --tw-scale-x: .5;
@@ -908,7 +905,7 @@ nav{
   transition-duration: 150ms;
 }
 
-@media (min-width: 700px){
+@media (min-width: 450px){
   nav{
     display: flex;
   }
@@ -964,26 +961,73 @@ html {
   -o-tab-size: 4;
   tab-size: 4;
   overflow: hidden;
-  @media (prefers-color-scheme: dark) {
-    scrollbar-color: #a2a2a2 transparent;
-  }
-  @media (prefers-color-scheme: light) {
-    scrollbar-color: #797979 transparent;
-  }
+  /* -moz-scrollbars-vertical; 
+    overflow-y: hidden;
+    scrollbar-color: #888 transparent; */
   font-size: 15px;
-  @media (min-width: 680px) {
+  /*font-size: max(calc(12px + 0.8vmin), 18px);*/
+}
+
+@media (min-width: 680px) {
+  html {
     font-size: 15.6px;
   }
-  @media (min-width: 1024px) {
+}
+
+@media (min-width: 1024px) {
+  html {
     font-size: 16.2px;
   }
-  @media (min-width: 1280px) {
+}
+
+@media (min-width: 1280px) {
+  html {
     font-size: 16.8px;
   }
-  @media (min-width: 1536px) {
+}
+
+@media (min-width: 1536px) {
+  html {
     font-size: 17.4px;
   }
-  /*font-size: max(calc(12px + 0.8vmin), 18px);*/
+}
+
+/* Scrollbar Styling Start */
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 1.35em;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  border: 0.4em solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background-color: #888;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  border: 0.4em solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background-color: #555;
+}
+
+/* Scrollbar Styling Ends */
+
+::-webkit-scrollbar-corner {
+  background: transparent;
 }
 
 body {
@@ -1327,6 +1371,39 @@ html {
 }
 
 /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 :after,
 :before {
     --tw-translate-x: 0;
@@ -1770,9 +1847,7 @@ html {
 .border-none {
     border-style: none
 }
-*/
 
-/*
 .border-\[\#fff4\] {
     border-color: #fff4
 }
@@ -1821,9 +1896,7 @@ html {
     --tw-bg-opacity: 1;
     background-color: rgb(30 41 59/var(--tw-bg-opacity))
 }
-*/
 
-/*
 .object-cover {
     -o-object-fit: cover;
     object-fit: cover
@@ -1871,6 +1944,7 @@ html {
     text-align: right
 }
 
+
 .font-heading {
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji
 }
@@ -1907,9 +1981,7 @@ html {
     font-size: 1.5rem;
     line-height: 2rem
 }
-*/
 
-/*
 .font-bold {
     font-weight: 700
 }
@@ -1933,9 +2005,7 @@ html {
 .leading-tight {
     line-height: 1.25
 }
-*/
 
-/*
 .text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255/var(--tw-text-opacity))
@@ -1975,9 +2045,7 @@ html {
     --tw-text-opacity: 1;
     color: rgb(209 213 219/var(--tw-text-opacity))
 }
-*/
 
-/*
 .opacity-0 {
     opacity: 0
 }
@@ -2191,9 +2259,7 @@ html {
 .group:hover .group-hover\:opacity-100 {
     opacity: 1
 }
-*/
 
-/*
 @media (min-width:400px) {
     .xs\:grid-cols-4 {
         grid-template-columns: repeat(4, minmax(0, 1fr))

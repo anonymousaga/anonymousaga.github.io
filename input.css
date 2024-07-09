@@ -14,7 +14,7 @@
 
 
 
-.dshsdaff {},
+*,
 /* needed for nav to work */
 .nav-passive {
     @apply after:scale-x-0 after:opacity-0 hover:after:scale-x-50 hover:after:opacity-100
@@ -26,7 +26,7 @@
 
 
 .abhibox {
-    @apply mt-4 flex flex-row rounded-lg border border-[#EEEEEE] dark:border-[#444444] shadow-lg bg-opacity-75 dark:bg-opacity-70 dark:bg-[#333333] bg-[#FFFFFF]
+    @apply mt-4 flex flex-row rounded-lg border border-[#EEEEEE] dark:border-[#444444] shadow-lg bg-opacity-75 bg-[#FFFFFF] dark:bg-opacity-70 dark:bg-[#333333]
 }
 
 .hr {
@@ -89,7 +89,7 @@
 }
 
 nav {
-    @apply mb-4 transition-all min-[700px]:flex gap-x-8 font-bold text-xl
+    @apply mb-4 transition-all min-[450px]:flex gap-x-8 font-bold text-xl
 }
 
 /* END ABHIJEET CSS */
@@ -141,42 +141,71 @@ html {
     -moz-tab-size: 4;
     -o-tab-size: 4;
     tab-size: 4;
-    overflow: hidden;
-   
-    @media (prefers-color-scheme: dark) {
-       
-        scrollbar-color: #a2a2a2 transparent;
-        
-    }
-    
-    @media (prefers-color-scheme: light) {
-        scrollbar-color: #797979 transparent;
-    }
-        
-
+    overflow: hidden; /* -moz-scrollbars-vertical; 
+    overflow-y: hidden;
+    scrollbar-color: #888 transparent; */
     font-size: 15px;
-    @screen md {
-        font-size: 15.6px;
-    }
 
-    @screen lg {
-        font-size: 16.2px;
-    }
-    @screen xl {
-        font-size: 16.8px;
-    }
-
-    @screen 2xl {
-        font-size: 17.4px;
-    }
 
     /*font-size: max(calc(12px + 0.8vmin), 18px);*/
 
+}
+@screen md {
+    html {
+    font-size: 15.6px;
+    }
+}
+@screen lg {
+    html {
+    font-size: 16.2px;
+    }
+}
+@screen xl {
 
+    html {
+    font-size: 16.8px;
+    }
+}
+
+@screen 2xl {
+    html {
+    font-size: 17.4px;
+    }
 }
 
 
 
+
+/* Scrollbar Styling Start */
+/* width */
+::-webkit-scrollbar {
+    width: 1.35em;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: transparent;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        border: 0.4em solid rgba(0, 0, 0, 0);
+        background-clip: padding-box;
+        border-radius: 9999px;
+        background-color: #888;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        border: 0.4em solid rgba(0, 0, 0, 0);
+        background-clip: padding-box;
+        border-radius: 9999px;
+        background-color: #555;
+    }
+    /* Scrollbar Styling Ends */
+    ::-webkit-scrollbar-corner {
+        background: transparent;
+    }
 body {
 
     margin: 0;
@@ -566,40 +595,40 @@ html {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 :after,
 :before {
     --tw-translate-x: 0;
@@ -1043,8 +1072,7 @@ html {
 .border-none {
     border-style: none
 }
-*/
-/*
+
 .border-\[\#fff4\] {
     border-color: #fff4
 }
@@ -1093,8 +1121,7 @@ html {
     --tw-bg-opacity: 1;
     background-color: rgb(30 41 59/var(--tw-bg-opacity))
 }
-*/
-/*
+
 .object-cover {
     -o-object-fit: cover;
     object-fit: cover
@@ -1142,6 +1169,7 @@ html {
     text-align: right
 }
 
+
 .font-heading {
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji
 }
@@ -1178,8 +1206,7 @@ html {
     font-size: 1.5rem;
     line-height: 2rem
 }
-*/
-/*
+
 .font-bold {
     font-weight: 700
 }
@@ -1203,8 +1230,7 @@ html {
 .leading-tight {
     line-height: 1.25
 }
-*/
-/*
+
 .text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255/var(--tw-text-opacity))
@@ -1244,8 +1270,7 @@ html {
     --tw-text-opacity: 1;
     color: rgb(209 213 219/var(--tw-text-opacity))
 }
-*/
-/*
+
 .opacity-0 {
     opacity: 0
 }
@@ -1459,8 +1484,7 @@ html {
 .group:hover .group-hover\:opacity-100 {
     opacity: 1
 }
-*/
-/*
+
 @media (min-width:400px) {
     .xs\:grid-cols-4 {
         grid-template-columns: repeat(4, minmax(0, 1fr))

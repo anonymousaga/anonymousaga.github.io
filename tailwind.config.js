@@ -7,7 +7,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 
 module.exports = {
-  mode: 'jit',
+  //mode: 'jit',
   theme: {
     
     screens: {
@@ -27,7 +27,7 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
-      backgroundOpacity: ['active'],
+      //backgroundOpacity: ['active'],
       colors: {
         //...colors
         orange: colors.orange,
@@ -46,11 +46,11 @@ module.exports = {
   ],
 
     plugins: [
-      require('flowbite/plugin'),
+      //require('flowbite/plugin'),
       //require('tailwind-scrollbar')({ nocompatible: true }),
     ],
 
-    darkMode: 'class',
+    //darkMode: 'class',
 
   }//,
   //experimental: {
