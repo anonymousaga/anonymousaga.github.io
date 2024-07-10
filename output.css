@@ -659,7 +659,6 @@ video {
   margin-top: 1rem;
   display: flex;
   border-radius: 0.375rem;
-  border-width: 1.5px;
   --tw-border-opacity: 1;
   border-color: rgb(51 51 51 / var(--tw-border-opacity));
 }
@@ -669,6 +668,10 @@ video {
     --tw-border-opacity: 1;
     border-color: rgb(153 153 153 / var(--tw-border-opacity));
   }
+}
+
+.abhibox {
+  border-width: 0.0937rem;
 }
 
 .h2{
@@ -683,8 +686,8 @@ video {
   font-weight: 800;
 }
 
-.abhipad{
-  padding: 0.875rem;
+.abhipad {
+  padding: 0.625rem;
 }
 
 .accordion-select{
@@ -988,10 +991,7 @@ nav{
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-@media (min-width: 450px){
-  nav{
+  @media (min-width: 27rem) {
     display: flex;
   }
 }
@@ -1025,25 +1025,25 @@ html {
   /*font-size: max(calc(12px + 0.8vmin), 18px);*/
 }
 
-@media (min-width: 680px) {
+@media (min-width: 42.5rem) {
   html {
     font-size: 100%;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64rem) {
   html {
     font-size: 105%;
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 80rem) {
   html {
     font-size:  110%;
   }
 }
 
-@media (min-width: 1536px) {
+@media (min-width: 96rem) {
   html {
     font-size: 115%;
   }

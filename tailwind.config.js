@@ -14,19 +14,19 @@ module.exports = {
   theme: {
     
     screens: {
-      'sm': '640px',
+      'sm': '40rem',
       // => @media (min-width: 640px) { ... }
 
-      'md': '680px',
+      'md': '42.5rem',
       // => @media (min-width: 680px) { ... }
 
-      'lg': '1024px',
+      'lg': '64rem',
       // => @media (min-width: 1024px) { ... }
 
-      'xl': '1280px',
+      'xl': '80rem',
       // => @media (min-width: 1280px) { ... }
 
-      '2xl': '1536px',
+      '2xl': '96rem',
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
