@@ -924,8 +924,6 @@ video {
   display: flex;
   width: -moz-min-content;
   width: min-content;
-  width: -moz-max-content;
-  width: max-content;
   align-items: center;
   text-wrap: nowrap;
   padding-top: 0.5rem;
