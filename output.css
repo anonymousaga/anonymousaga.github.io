@@ -1,4 +1,4 @@
-@import"https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Outfit:wght@500;700&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100..900&family=Source+Code+Pro:wght@200..900&display=swap');
 
 /*
 ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
@@ -588,7 +588,7 @@ video {
 }
 
 .arrow{
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Murecho;
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 500;
@@ -729,6 +729,7 @@ video {
 .abhibody{
   margin: 1.5rem;
   width: 41rem;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.25rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;

@@ -1,4 +1,5 @@
-@import"https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Outfit:wght@500;700&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100..900&family=Source+Code+Pro:wght@200..900&display=swap');
+
 @config "./tailwind.config.js";
 @tailwind base;
 @tailwind components;
@@ -6,6 +7,8 @@
 /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
+
+
 
 
 
@@ -25,7 +28,7 @@
 }
 
 .arrow {
-    @apply text-xl font-medium font-sans group-hover:font-black
+    @apply text-xl font-medium font-arrow group-hover:font-black
 }
 
 .abhihover {
@@ -47,7 +50,7 @@
       };
 }
 .abhibox {
-    @apply mt-4 flex rounded-md border-[#333] dark:border-[#999];  
+    @apply mt-4 flex rounded-md border-[#333] dark:border-[#999] ; 
     border-width: 0.0937rem;
 }
 
@@ -81,7 +84,7 @@
 }
 
 .abhibody {
-    @apply fade-in text-xl m-6 w-[41rem] transition-all text-gray-800 dark:text-gray-200 
+    @apply fade-in text-xl m-6 w-[41rem] transition-all text-gray-800 dark:text-gray-200 font-sans
 }
 
 .homelink {

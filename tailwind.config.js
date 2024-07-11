@@ -30,6 +30,9 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      fontFamily: { 
+        "arrow": ['Murecho'],
+    },
       //backgroundOpacity: ['active'],
       colors: {
         //...colors
