@@ -93,7 +93,7 @@
 }
 
 .nav {
-    @apply after:transition relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-red-500 after:rounded items-center py-2 flex w-min text-nowrap
+    @apply after:transition relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-red-500 after:rounded items-center py-2 flex w-max text-nowrap
 }
 
 
