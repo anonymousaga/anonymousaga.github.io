@@ -61,6 +61,25 @@
 
 
 
+.img-wrapper-2 {
+    overflow-x: scroll;
+}
+.img-wrapper {
+    height: 150rem;
+    width: 125rem;
+    background-color: blue;
+
+    justify-content: center;
+    display: flex;
+}
+
+.img-wrapper > .board {
+    overflow: visible;
+    object-fit: cover;
+    height:100%; 
+    pointer-events: none;
+}
+
 .abhipad {
     padding: 0.625rem;
 }
