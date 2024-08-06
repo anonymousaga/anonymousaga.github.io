@@ -151,24 +151,24 @@ html {
 }
 @screen md {
     html {
-    font-size: 100%;
+    font-size: 95%;
     }
 }
 @screen lg {
     html {
-    font-size: 105%;
+    font-size: 100%;
     }
 }
 @screen xl {
 
     html {
-    font-size:  110%;
+    font-size:  105%;
     }
 }
 
 @screen 2xl {
     html {
-    font-size: 115%;
+    font-size: 110%;
     }
 }
 

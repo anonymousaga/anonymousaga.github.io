@@ -1028,25 +1028,25 @@ html {
 
 @media (min-width: 42.5rem) {
   html {
-    font-size: 100%;
+    font-size: 95%;
   }
 }
 
 @media (min-width: 64rem) {
   html {
-    font-size: 105%;
+    font-size: 100%;
   }
 }
 
 @media (min-width: 80rem) {
   html {
-    font-size:  110%;
+    font-size:  105%;
   }
 }
 
 @media (min-width: 96rem) {
   html {
-    font-size: 115%;
+    font-size: 110%;
   }
 }
 
