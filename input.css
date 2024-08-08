@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100..900&family=Source+Code+Pro:wght@200..900&display=swap');
-
+@import url('fonts/fonts.css');
 @config "./tailwind.config.js";
 @tailwind base;
 @tailwind components;
@@ -7,9 +6,6 @@
 /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
-
-
-
 
 
 
@@ -28,7 +24,8 @@
 }
 
 .arrow {
-    @apply text-xl font-medium font-arrow group-hover:font-black
+    @apply text-xl font-[500] font-arrow group-hover:font-[900];
+
 }
 
 .abhihover {

@@ -29,10 +29,12 @@ module.exports = {
       '2xl': '96rem',
       // => @media (min-width: 1536px) { ... }
     },
+    fontFamily: { 
+      "arrow": ['Murecho'],
+      'sans': ['Inter'],
+      },
+
     extend: {
-      fontFamily: { 
-        "arrow": ['Murecho'],
-    },
       //backgroundOpacity: ['active'],
       colors: {
         //...colors
